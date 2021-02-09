@@ -4,7 +4,7 @@
 
 1. Fazer o download da versão mais atual do dump da [wikipedia](https://dumps.wikimedia.org/ptwiki/latest/ptwiki-latest-pages-articles.xml.bz2);
 2. Utilizar a versão modificada do script WikiExtractor para transformar o xml em um documento json;
-3. Ler o arquivo json com o comando abaixo ao invés de usar o pandas para ler o json devido ao tamanho do arquivo:
+3. Ler o arquivo json com o comando abaixo ao invés de usar o pandas devido ao tamanho do arquivo:
 
 ```python
 with open('text/wiki.txt') as json_file:      
